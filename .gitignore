@@ -1,0 +1,10 @@
+# Ignore site output
+_site/
+.jekyll-cache/
+
+# Ignore dependencies
+Gemfile.lock
+
+# Ruby environment files
+.bundle/
+vendor/
