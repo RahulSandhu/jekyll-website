@@ -16,9 +16,6 @@ using **Jekyll**. It includes:
 - Auto-generated site output in the `_site/` folder (excluded via `.gitignore`)
 - Gem dependencies defined in `Gemfile`
 
-This site is meant as a hands-on introduction to deploying personal or academic
-websites.
-
 ## Running Locally
 
 To launch the website locally, follow these steps:
@@ -28,7 +25,6 @@ To launch the website locally, follow these steps:
     Choose a local path where you want to clone the project, for example:
 
     ```bash
-    cd ~/projects
     git clone https://github.com/RahulSandhu/jekyll-website.git
     cd jekyll-website
     ```
