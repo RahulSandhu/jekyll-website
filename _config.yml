@@ -1,0 +1,93 @@
+###################
+# General Options #
+###################
+
+theme: beautiful-jekyll-theme
+
+title: Home
+author: Ravneet-Rahul Sandhu Singh
+
+timezone: "Europe/Madrid"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+title-on-all-pages: true
+
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+
+post_search: true
+navbar-var-length: false
+
+date_format: "%B %-d, %Y"
+
+##################
+# Navigation Bar #
+##################
+
+navbar-links:
+  About Me: "aboutme"
+
+########################
+# Social Network Links #
+########################
+
+social-network-links:
+  email: "rahulsandhu542001@gmail.com"
+  github: "RahulSandhu"
+  linkedin: "Ravneet-Rahul Sandhu Singh"
+
+##############################
+# Colors & Background Styles #
+##############################
+
+page-col: "#FFFFFF"
+text-col: "#1C1C1C"
+link-col: "#FF4500"
+hover-col: "#B22222"
+navbar-col: "#FFA500"
+navbar-text-col: "#101820"
+navbar-border-col: "#FF8C00"
+footer-col: "#1F2833"
+footer-text-col: "#F8F8FF"
+footer-link-col: "#00CED1"
+footer-hover-col: "#008B8B"
+
+#######################
+# Default YAML Values #
+#######################
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: false
+  - scope:
+      path: "pages"
+    values:
+      layout: "page"
+
+#################################
+# Exclude from Production Build #
+#################################
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+#######################
+#      Plugins       #
+#######################
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
