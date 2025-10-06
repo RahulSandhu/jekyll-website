@@ -26,3 +26,9 @@ main programming languages are Python, R, and SQL.
 > **Ravneet-Rahul Sandhu Singh, et al.** *How do age and gender affect the respiratory pattern in healthy subjects?.*  
 > DOI: [10.1109/EMBC53108.2024.10782218](https://doi.org/10.1109/EMBC53108.2024.10782218)
 {: .text-justify}
+
+<div style="text-align: center;">
+  <a href="https://www.buymeacoffee.com/rahulsandhu" target="_blank">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=rahulsandhu&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me a Coffee button" style="height: 60px !important;width: 217px !important;" />
+  </a>
+</div>
