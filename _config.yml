@@ -23,7 +23,7 @@ date_format: "%B %-d, %Y"
 #######################
 # Site Configuration  #
 #######################
-url: "http://localhost:4000"
+url: ""
 baseurl: ""
 
 ##################
