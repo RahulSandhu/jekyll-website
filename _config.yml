@@ -1,35 +1,34 @@
 ###################
 # General Options #
 ###################
-
 theme: beautiful-jekyll-theme
-
+title: Ravneet-Rahul Sandhu Singh
+description: Master in Health Data Science - URV
 author: Ravneet-Rahul Sandhu Singh
-
 timezone: "Europe/Madrid"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
-
 kramdown:
   input: GFM
-
 title-on-all-pages: true
-
 excerpt_length: 50
 feed_show_excerpt: true
 feed_show_tags: true
-
 post_search: true
 navbar-var-length: false
-
 date_format: "%B %-d, %Y"
+
+#######################
+# Site Configuration  #
+#######################
+url: "http://localhost:4000"
+baseurl: ""
 
 ##################
 # Navigation Bar #
 ##################
-
 navbar-links:
   Home: "/"  
   About Me: "aboutme"
@@ -37,7 +36,6 @@ navbar-links:
 ########################
 # Social Network Links #
 ########################
-
 social-network-links:
   email: "rahulsandhu542001@gmail.com"
   github: "RahulSandhu"
@@ -46,23 +44,31 @@ social-network-links:
 ##############################
 # Colors & Background Styles #
 ##############################
-
 page-col: "#FFFFFF"
-text-col: "#1C1C1C"
-link-col: "#FF4500"
-hover-col: "#B22222"
-navbar-col: "#FFA500"
-navbar-text-col: "#101820"
-navbar-border-col: "#FF8C00"
-footer-col: "#1F2833"
+text-col: "#231F20"
+link-col: "#90292A"
+hover-col: "#AC162C"
+navbar-col: "#90292A"
+navbar-text-col: "#FFFFFF"
+navbar-border-col: "#AC162C"
+footer-col: "#231F20"
 footer-text-col: "#F8F8FF"
-footer-link-col: "#00CED1"
-footer-hover-col: "#008B8B"
+footer-link-col: "#90292A"
+footer-hover-col: "#AC162C"
+
+##############
+# Typography #
+##############
+google-fonts: "Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i"
+
+##############
+# Custom CSS #
+##############
+site-css: "/assets/css/custom-urv.css"
 
 #######################
 # Default YAML Values #
 #######################
-
 defaults:
   - scope:
       path: ""
@@ -79,15 +85,14 @@ defaults:
 #################################
 # Exclude from Production Build #
 #################################
-
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
-#######################
-#      Plugins       #
-#######################
-
+#############
+# Plugins   #
+#############
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
