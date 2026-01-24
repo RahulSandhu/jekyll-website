@@ -12,26 +12,26 @@ installed on your system.
 
 1. **Clone the repository**
 
-    ```bash
-    git clone https://github.com/RahulSandhu/jekyll-website
-    cd jekyll-website
-    ```
+   ```bash
+   git clone https://github.com/RahulSandhu/jekyll-website
+   cd jekyll-website
+   ```
 
 2. **Install dependencies**
 
-    ```bash
-    bundle install
-    ```
+   ```bash
+   bundle install
+   ```
 
 3. **Run the server locally**
 
-    ```bash
-    bundle exec jekyll serve
-    ```
+   ```bash
+   bundle exec jekyll serve
+   ```
 
 ## 🎓 Acknowledgements
 
-* Developed as part of the Health Data Science Master’s program at Universitat
-Rovira i Virgili (URV)
+- Developed as part of the High Performance and Distributed Computing course of
+  the Master in Health Data Science at Universitat Rovira i Virgili (URV)
 
 </div>
