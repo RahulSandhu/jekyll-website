@@ -31,7 +31,7 @@ installed on your system.
 
 ## 🎓 Acknowledgements
 
-- Developed as part of the High Performance and Distributed Computing course of
-  the Master in Health Data Science at Universitat Rovira i Virgili (URV)
+- Developed as part of the High Performance and Distributed Computing course in
+  the Master in Health Data Science program at Universitat Rovira i Virgili (URV)
 
 </div>
